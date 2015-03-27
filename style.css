@@ -2602,21 +2602,15 @@ ol.notes li.more_notes_link_container a:hover {
   background: none repeat scroll 0 0 #3a363d;
   color: white;
   padding: 25px 0 0;
-  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000; }
 
 .logo {
-  background: url("http://qltd.com/images/logo.png") no-repeat scroll 0 0 transparent;
   float: left;
   height: 55px;
   margin: 0 0 20px 4%;
-  text-indent: -9999px;
   width: 233px; }
-
-.logo.x2 {
-  background: url("http://qltd.com/images/logo@2x.png") repeat scroll 0 0/contain transparent; }
 
 .nav-toggle {
   background: none repeat scroll 0 0 #c9005d;
@@ -2631,27 +2625,61 @@ ol.notes li.more_notes_link_container a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.5s ease-out 0s; }
+  .main-nav.open {
+    max-height: 500px; }
+  .main-nav ul {
+    margin: 0;
+    padding: 20px 0; }
+  .main-nav li {
+    list-style: outside none none;
+    text-align: center; }
+  .main-nav a {
+    color: white;
+    display: block;
+    font: 800 14px "proxima-nova";
+    letter-spacing: 1px;
+    padding: 15px;
+    text-transform: uppercase; }
+    .main-nav a:hover {
+      color: #f4810f; }
 
-.main-nav.open {
-  max-height: 500px; }
+@media (min-width: 55rem) {
+  .header {
+    padding: 25px 0 25px; }
 
-.main-nav ul {
-  margin: 0;
-  padding: 20px 0; }
+  .nav-toggle {
+    display: none; }
 
-.main-nav li {
-  list-style: outside none none;
-  text-align: center; }
+  .main-nav {
+    display: block !important;
+    max-height: 300px;
+    float: right;
+    margin: 13px 6% 0 0;
+    background: transparent;
+    clear: none; }
+    .main-nav ul li {
+      display: inline-block; }
+      .main-nav ul li + li {
+        margin-left: 20px; }
+    .main-nav ul a {
+      padding: 0; } }
+/*--------------------------------------------------------------
+# New Styles
+--------------------------------------------------------------*/
+/**
+ *Here we will add custom styles for the Q blog on wordpress
+ *@rdar
+ *
+ */
+#qblog_header a {
+  text-decoration: none; }
 
-.main-nav a {
-  color: white;
-  display: block;
-  font: 800 14px "proxima-nova";
-  letter-spacing: 1px;
-  padding: 15px;
-  text-transform: uppercase; }
-
-.main-nav a:hover {
-  color: #f4810f; }
+#posts .post {
+  opacity: 1;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  padding: 1.25em 1.25em 0; }
+  #posts .post a {
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

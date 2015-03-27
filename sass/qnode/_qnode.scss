@@ -1,23 +1,37 @@
+//styles copied from the Qnode website
+$computer : 55rem;
+
+@mixin transition($sec: 0.2s, $trans:ease-out ) {
+  -webkit-transition: all $sec $trans;
+  -moz-transition: all $sec $trans;
+  -ms-transition: all $sec $trans;
+  -o-transition: all $sec $trans;
+  transition: all $sec $trans;
+}
+
+
+@mixin navText($size: 14px) {
+  color: white;
+  font: 800 $size "proxima-nova";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 .header {
     background: none repeat scroll 0 0 #3a363d;
     color: white;
     padding: 25px 0 0;
-    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
 }
 .logo {
-    background: url("http://qltd.com/images/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     float: left;
     height: 55px;
     margin: 0 0 20px 4%;
-    text-indent: -9999px;
     width: 233px;
 }
-.logo.x2 {
-    background: url("http://qltd.com/images/logo@2x.png") repeat scroll 0 0 / contain rgba(0, 0, 0, 0);
-}
+
 .nav-toggle {
     background: none repeat scroll 0 0 #c9005d;
     color: white;
@@ -31,26 +45,61 @@
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s ease-out 0s;
+
+    &.open {
+        max-height: 500px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    li {
+        list-style: outside none none;
+        text-align: center;
+    }
+
+    a {
+        color: white;
+        display: block;
+        font: 800 14px "proxima-nova";
+        letter-spacing: 1px;
+        padding: 15px;
+        text-transform: uppercase;
+
+        &:hover {
+            color: #f4810f;
+        }
+    }
 }
-.main-nav.open {
-    max-height: 500px;
-}
-.main-nav ul {
-    margin: 0;
-    padding: 20px 0;
-}
-.main-nav li {
-    list-style: outside none none;
-    text-align: center;
-}
-.main-nav a {
-    color: white;
-    display: block;
-    font: 800 14px "proxima-nova";
-    letter-spacing: 1px;
-    padding: 15px;
-    text-transform: uppercase;
-}
-.main-nav a:hover {
-    color: #f4810f;
+
+@media (min-width: $computer) {
+  .header {
+    padding:25px 0 25px;
+  }
+
+  .nav-toggle {
+    display: none;  
+  }
+
+  .main-nav {
+    display: block !important;
+    max-height:300px;
+    float: right;
+    margin: 13px 6% 0 0;
+    background: transparent;
+    clear: none;
+    ul {
+      li {
+        display: inline-block;  
+        & + li {
+          margin-left: 20px;
+        }
+      }
+      a {
+        padding: 0;
+      }
+    }
+  }
 }
