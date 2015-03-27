@@ -113,17 +113,17 @@ function qblog_entry_footer() {
 		/* translators: used between list items, there is a space after the comma */
 		$tags_list = get_the_tag_list( '', __( ', ', 'qblog' ) );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">' . __( 'Tagged %1$s', 'qblog' ) . '</span>', $tags_list );
+			printf( '<span class="tags-links">' . __( '%1$s', 'qblog' ) . '</span>', $tags_list );
 		}
 	}
 
-	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
+	/*if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 		echo '<span class="comments-link">';
 		comments_popup_link( __( 'Leave a comment', 'qblog' ), __( '1 Comment', 'qblog' ), __( '% Comments', 'qblog' ) );
 		echo '</span>';
-	}
+    }*/
 
-	edit_post_link( __( 'Edit', 'qblog' ), '<span class="edit-link">', '</span>' );
+	edit_post_link( __( ' Edit', 'qblog' ), '<span class="edit-link">', '</span>' );
 }
 endif;
 

@@ -29,7 +29,9 @@ $computer : 55rem;
     float: left;
     height: 55px;
     margin: 0 0 20px 4%;
-    width: 233px;
+    width: 233px !important;
+	background: url(imgs/logo.png) no-repeat;
+	text-indent: -9999px;
 }
 
 .nav-toggle {

@@ -2610,7 +2610,9 @@ ol.notes li.more_notes_link_container a:hover {
   float: left;
   height: 55px;
   margin: 0 0 20px 4%;
-  width: 233px; }
+  width: 233px !important;
+  background: url(imgs/logo.png) no-repeat;
+  text-indent: -9999px; }
 
 .nav-toggle {
   background: none repeat scroll 0 0 #c9005d;
@@ -2671,8 +2673,13 @@ ol.notes li.more_notes_link_container a:hover {
  *@rdar
  *
  */
+a {
+  text-decoration: none;
+  transition: all 0.2s ease-out 0s; }
+
 #qblog_header a {
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: sans-serif; }
 
 #posts .post {
   opacity: 1;
@@ -2681,5 +2688,11 @@ ol.notes li.more_notes_link_container a:hover {
   padding: 1.25em 1.25em 0; }
   #posts .post a {
     text-decoration: none; }
+#posts header {
+  border-bottom: none; }
+#posts footer {
+  border-top: none; }
+#posts .gallery-columns-3 .gallery-item {
+  max-width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
