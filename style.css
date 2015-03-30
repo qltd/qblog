@@ -2695,4 +2695,7 @@ a {
 #posts .gallery-columns-3 .gallery-item {
   max-width: 100%; }
 
+nav.navigation.posts-navigation {
+  float: none; }
+
 /*# sourceMappingURL=style.css.map */
