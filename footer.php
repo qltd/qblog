@@ -15,8 +15,13 @@
 	</footer><!-- #colophon -->
 
 <?php wp_footer(); ?>
-
-	<script src="http://static.tumblr.com/g8b5dgd/hOkm8ux8j/mikedidthis-mason-index-helpers-1-2-min.js"></script>
-	<script src="http://static.tumblr.com/g8b5dgd/oKlm8uxad/mikedidthis-mason-index-1-2-min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js"></script>
+<script>
+var container = document.querySelector('#posts');
+var msnry = new Masonry( container, {
+    columnWidth: 200,
+    itemSelector: '.post'
+});
+</script>
 </body>
 </html>

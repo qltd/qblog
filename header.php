@@ -16,9 +16,9 @@
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <!-- Google Fonts > ASAP -->
-		<link href='http://fonts.googleapis.com/css?family=Asap:400,400italic' rel='stylesheet' type='text/css'>
-		<!-- Other Fonts > Nevis & Fontomas -->
-		<link href='http://static.tumblr.com/g8b5dgd/fiym47mol/fonts.css' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Asap:400,400italic' rel='stylesheet' type='text/css'>
+<!-- Other Fonts > Nevis & Fontomas -->
+<link href='http://static.tumblr.com/g8b5dgd/fiym47mol/fonts.css' rel='stylesheet' type='text/css'>
 
 <?php wp_head(); ?>
 </head>
