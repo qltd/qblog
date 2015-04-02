@@ -22,6 +22,18 @@ var msnry = new Masonry( container, {
     columnWidth: 200,
     itemSelector: '.post'
 });
+( function( $ ) {
+    infinite_count = 0;
+    $( document.body ).on( 'post-load', function () {
+        infinite_count = infinite_count + 1;
+        var $container = $('#posts').masonry();
+        var $selector = $('#infinite-view-' + infinite_count);
+        var $elements = $selector.find('.hentry');
+       // $elements.hide();
+        $container.masonry('reloadItems');
+        //$elements.fadeIn();
+    } );
+} )( jQuery );
 </script>
 </body>
 </html>

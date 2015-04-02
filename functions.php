@@ -74,6 +74,8 @@ function qblog_setup() {
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+    
 }
 endif; // qblog_setup
 add_action( 'after_setup_theme', 'qblog_setup' );
