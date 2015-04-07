@@ -27,7 +27,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'qblog' ); ?></a>
 
 	<header id="qblog_header" class="header clearfix" role="banner">
-        <h1 class="logo"><a href="" rel="home">Q Design & Communication Since 1981</a></h1>
+        <h1 class="logo"><a href="/" rel="home">Q Design & Communication Since 1981</a></h1>
         <div class="nav-toggle">
             <i class="icon-reorder"></i>
         </div>
