@@ -6,9 +6,8 @@
  */
 
 get_header(); ?>
-
-<div class="post-wrapper">
-    <section id="posts" class="page-permalink"> 
+<div class="post-wrapper" id="post">
+    <section id="post_content" class="page-permalink"> 
 
         <?php while ( have_posts() ) : the_post(); ?>
 
@@ -17,9 +16,10 @@ get_header(); ?>
 			<?php the_post_navigation(); ?>
 
 		<?php endwhile; // end of the loop. ?>
-        <div id="post-details">
-            <?php get_sidebar(); ?>
-        </div>
     </section>	
+
+    <div id="post-details">
+        <?php get_sidebar(); ?>
+    </div>
 </div>
 <?php get_footer(); ?>

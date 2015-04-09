@@ -2704,4 +2704,15 @@ nav.navigation.posts-navigation {
   .tags-links a:before {
     content: '#'; }
 
+#post #post_content {
+  float: left;
+  width: 47.4995em;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 0 1px 0 #e0e0e0;
+  margin: 2.5em 1.25em 0;
+  padding: 2rem; }
+#post #post-details {
+  float: right; }
+
 /*# sourceMappingURL=style.css.map */
