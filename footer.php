@@ -17,18 +17,11 @@
 <?php wp_footer(); ?>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js"></script>
 <script>
-/*
-var container = document.querySelector('#posts');
-var msnry = new Masonry( container, {
-    columnWidth: 200,
-    itemSelector: '.post'
-});*/
 ( function( $ ) {
     
     var $container = $('#posts');
 
     $container.masonry({
-        columnWidth: 200,
         itemSelector: '.post'
     });
 
