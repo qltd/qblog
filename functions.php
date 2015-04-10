@@ -138,3 +138,9 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+//change read more link
+function modify_read_more_link() {
+    return '<a class="more-link" href="' . get_permalink() . '">more</a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );

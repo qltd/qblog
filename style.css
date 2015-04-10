@@ -2688,12 +2688,23 @@ a {
   padding: 1.25em 1.25em 0; }
   #posts .post a {
     text-decoration: none; }
+    #posts .post a:visited {
+      color: #3d393a; }
 #posts header {
   border-bottom: none; }
+  #posts header h1 {
+    line-height: 1.63636em;
+    font-weight: bold; }
 #posts footer {
   border-top: none; }
 #posts .gallery-columns-3 .gallery-item {
   max-width: 100%; }
+#posts .post_format-post-format-gallery header {
+  display: none; }
+#posts .post_format-post-format-gallery .entry-content {
+  margin-top: 0; }
+  #posts .post_format-post-format-gallery .entry-content p, #posts .post_format-post-format-gallery .entry-content br {
+    display: none; }
 
 nav.navigation.posts-navigation {
   float: none; }
@@ -2704,6 +2715,14 @@ nav.navigation.posts-navigation {
   .tags-links a:before {
     content: '#'; }
 
+.more-link {
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+  font-style: italic; }
+  .more-link:after {
+    content: "..."; }
+
 #post #post_content {
   float: left;
   width: 47.4995em;
@@ -2713,6 +2732,7 @@ nav.navigation.posts-navigation {
   margin: 2.5em 1.25em 0;
   padding: 2rem; }
 #post #post-details {
-  float: right; }
+  float: right;
+  border: none; }
 
 /*# sourceMappingURL=style.css.map */
