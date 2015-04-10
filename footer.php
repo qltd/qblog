@@ -35,6 +35,12 @@
         $container.masonry('reloadItems');
         //$elements.fadeIn();
     } );
+
+    //hide nav on mobile
+    $('.nav-toggle').click(function(){
+        $('.main-nav').slideToggle();
+    });
+
 } )( jQuery );
 </script>
 </body>

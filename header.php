@@ -19,7 +19,7 @@
 <link href='http://fonts.googleapis.com/css?family=Asap:400,400italic' rel='stylesheet' type='text/css'>
 <!-- Other Fonts > Nevis & Fontomas -->
 <link href='http://static.tumblr.com/g8b5dgd/fiym47mol/fonts.css' rel='stylesheet' type='text/css'>
-
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <?php wp_head(); ?>
 </head>
 
@@ -28,10 +28,7 @@
 
 	<header id="qblog_header" class="header clearfix" role="banner">
         <h1 class="logo"><a href="/" rel="home">Q Design & Communication Since 1981</a></h1>
-        <div class="nav-toggle">
-            <i class="icon-reorder"></i>
-        </div>
-
+        <div class="nav-toggle"><i class="fa fa-bars"></i></div>
 		<nav id="" class="main-nav open" role="navigation">
             <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->

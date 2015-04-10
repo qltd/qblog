@@ -2735,4 +2735,8 @@ nav.navigation.posts-navigation {
   float: right;
   border: none; }
 
+@media (max-width: 860px) {
+  .main-nav.open {
+    width: 100%; } }
+
 /*# sourceMappingURL=style.css.map */
