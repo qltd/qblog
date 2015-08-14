@@ -3674,7 +3674,7 @@ ol.notes li.more_notes_link_container a:hover {
   height: 55px;
   margin: 0 0 20px 4%;
   width: 233px !important;
-  background: url(imgs/logo.png) no-repeat;
+  background: url(../imgs/logo.png) no-repeat;
   text-indent: -9999px;
 }
 
@@ -3764,91 +3764,116 @@ ol.notes li.more_notes_link_container a:hover {
  *@rdar
  *
  */
-/* line 7, ../sass/qratorwp/_qratorwp.scss */
+@font-face {
+  font-family: 'fontawesome-webfont';
+  src: url("../fonts/fontawesome-webfont.eot");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 20, ../sass/qratorwp/_qratorwp.scss */
 a {
   text-decoration: none;
   transition: all 0.2s ease-out 0s;
 }
 
-/* line 13, ../sass/qratorwp/_qratorwp.scss */
+/* line 26, ../sass/qratorwp/_qratorwp.scss */
 #qblog_header a {
   text-decoration: none;
-  font-family: proxima-nova sans-serif;
+  font-family: fontawesome-webfont sans-serif;
 }
 
-/* line 20, ../sass/qratorwp/_qratorwp.scss */
+/* line 32, ../sass/qratorwp/_qratorwp.scss */
+#view_dropdown {
+  margin-top: 3px;
+  margin-right: 6%;
+}
+/* line 35, ../sass/qratorwp/_qratorwp.scss */
+#view_dropdown li {
+  margin-bottom: 4px;
+}
+/* line 39, ../sass/qratorwp/_qratorwp.scss */
+#view_dropdown #dropdown-menu {
+  margin-left: 0;
+}
+/* line 42, ../sass/qratorwp/_qratorwp.scss */
+#view_dropdown #dropdown-menu li {
+  margin-bottom: 0;
+}
+
+/* line 51, ../sass/qratorwp/_qratorwp.scss */
 #posts .post {
   opacity: 1;
   border: 1px solid #fff;
   border-radius: 2px;
   padding: 1.25em 1.25em 0;
 }
-/* line 25, ../sass/qratorwp/_qratorwp.scss */
+/* line 56, ../sass/qratorwp/_qratorwp.scss */
 #posts .post a {
   text-decoration: none;
 }
-/* line 27, ../sass/qratorwp/_qratorwp.scss */
+/* line 58, ../sass/qratorwp/_qratorwp.scss */
 #posts .post a:visited {
   color: #3d393a;
 }
-/* line 33, ../sass/qratorwp/_qratorwp.scss */
+/* line 64, ../sass/qratorwp/_qratorwp.scss */
 #posts header {
   border-bottom: none;
 }
-/* line 35, ../sass/qratorwp/_qratorwp.scss */
+/* line 66, ../sass/qratorwp/_qratorwp.scss */
 #posts header h1 {
   line-height: 1.63636em;
   font-weight: bold;
 }
-/* line 41, ../sass/qratorwp/_qratorwp.scss */
+/* line 72, ../sass/qratorwp/_qratorwp.scss */
 #posts footer {
   border-top: none;
 }
-/* line 45, ../sass/qratorwp/_qratorwp.scss */
+/* line 76, ../sass/qratorwp/_qratorwp.scss */
 #posts .gallery-columns-3 .gallery-item {
   max-width: 100%;
 }
-/* line 50, ../sass/qratorwp/_qratorwp.scss */
+/* line 81, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-gallery header {
   display: none;
 }
-/* line 53, ../sass/qratorwp/_qratorwp.scss */
+/* line 84, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-gallery .entry-content {
   margin-top: 0;
 }
-/* line 55, ../sass/qratorwp/_qratorwp.scss */
+/* line 86, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-gallery .entry-content p, #posts .post_format-post-format-gallery .entry-content br {
   display: none;
 }
 
-/* line 63, ../sass/qratorwp/_qratorwp.scss */
+/* line 94, ../sass/qratorwp/_qratorwp.scss */
 nav.navigation.posts-navigation {
   float: none;
 }
 
-/* line 67, ../sass/qratorwp/_qratorwp.scss */
+/* line 98, ../sass/qratorwp/_qratorwp.scss */
 .tags-links {
   font-size: 0.6rem;
   opacity: 0.7;
 }
-/* line 71, ../sass/qratorwp/_qratorwp.scss */
+/* line 102, ../sass/qratorwp/_qratorwp.scss */
 .tags-links a:before {
   content: '#';
 }
 
-/* line 77, ../sass/qratorwp/_qratorwp.scss */
+/* line 108, ../sass/qratorwp/_qratorwp.scss */
 .more-link {
   font-size: 0.8rem;
   padding: 0;
   margin: 0;
   font-style: italic;
 }
-/* line 82, ../sass/qratorwp/_qratorwp.scss */
+/* line 113, ../sass/qratorwp/_qratorwp.scss */
 .more-link:after {
   content: "...";
 }
 
-/* line 90, ../sass/qratorwp/_qratorwp.scss */
+/* line 121, ../sass/qratorwp/_qratorwp.scss */
 #post #post_content {
   float: left;
   width: 47.4995em;
@@ -3858,14 +3883,14 @@ nav.navigation.posts-navigation {
   margin: 2.5em 1.25em 0;
   padding: 2rem;
 }
-/* line 100, ../sass/qratorwp/_qratorwp.scss */
+/* line 131, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details {
   float: right;
   border: none;
 }
 
 @media (max-width: 860px) {
-  /* line 109, ../sass/qratorwp/_qratorwp.scss */
+  /* line 140, ../sass/qratorwp/_qratorwp.scss */
   .main-nav.open {
     width: 100%;
   }

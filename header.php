@@ -20,6 +20,7 @@
 <!-- Other Fonts > Nevis & Fontomas -->
 <link href='http://static.tumblr.com/g8b5dgd/fiym47mol/fonts.css' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/view-action.js"></script> 
 <?php wp_head(); ?>
 </head>
 
@@ -33,3 +34,23 @@
             <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+<nav id="view_dropdown">
+<ul data-dropdown="dropdown" class="filter">
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle">View:</a>
+        <ul class="dropdown-menu" id="dropdown-menu">
+            <li><a href="/">All</a></li>
+            <li><a href="/tag/q-design/">Q Design</a></li>
+            <li><a href="/tag/gallery-of-qs/">Gallery of Qs</a></li>
+            <li><a href="/tag/playlist/">Now Playing</a></li>
+            <li><a href="/tag/q-experiences/">Q Experiences</a></li>
+            <li><a href="/tag/q-crew/">Q Crew</a></li>
+            <li><a href="/tag/quotes/">Quotes</a></li>
+            <li><a href="/tag/q-news/">Q News</a></li>
+            <li><a href="/tag/q-wallpaper/">Q Wallpaper</a></li>
+            <li><a href="/tag/q-toronto/">Q Toronto</a></li>
+            <li><a href="/tag/q-newsletter/">Q Newsletter</a></li>
+        </ul>
+    </li>
+</ul>
+</nav>
