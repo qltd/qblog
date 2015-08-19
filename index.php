@@ -13,7 +13,7 @@
 
 get_header(); ?>
     <div class="post-wrapper">
-          <section id="posts" class="page-index isotope"> 
+          <section id="posts" class="page-index isotope">
 
 		<?php if ( have_posts() ) : ?>
 

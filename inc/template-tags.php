@@ -102,8 +102,12 @@ if ( ! function_exists( 'qblog_entry_footer' ) ) :
  * Prints HTML with meta information for the categories, tags and comments.
  */
 function qblog_entry_footer() {
+
 	// Hide category and tag text for pages.
 	if ( 'post' == get_post_type() ) {
+		$date = get_the_date('jS F, Y');
+		printf('<span class="date">'.__('%1$s').'</span>', $date);
+
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( __( ', ', 'qblog' ) );
 		if ( $categories_list && qblog_categorized_blog() ) {
@@ -123,7 +127,7 @@ function qblog_entry_footer() {
 		echo '</span>';
     }*/
 
-	edit_post_link( __( ' Edit', 'qblog' ), '<span class="edit-link">', '</span>' );
+	edit_post_link( __( ' &nbsp; - Edit ', 'qblog' ), '<span class="edit-link">', '</span>' );
 }
 endif;
 

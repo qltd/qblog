@@ -75,7 +75,7 @@ function qblog_setup() {
 		'default-image' => '',
 	) ) );
 
-    
+
 }
 endif; // qblog_setup
 add_action( 'after_setup_theme', 'qblog_setup' );
@@ -142,6 +142,6 @@ require get_template_directory() . '/inc/jetpack.php';
 
 //change read more link
 function modify_read_more_link() {
-    return '<a class="more-link" href="' . get_permalink() . '">more</a>';
+    return '<a class="more-link" href="' . get_permalink() . '">Keep Reading</a>';
 }
 add_filter( 'the_content_more_link', 'modify_read_more_link' );

@@ -65,9 +65,7 @@ $computer : 55rem;
     a {
         color: white;
         display: block;
-        font: 800 14px "proxima-nova";
-        letter-spacing: 1px;
-        padding: 15px;
+        font: 800 15px "proxima-nova", sans-serif;
         text-transform: uppercase;
 
         &:hover {
@@ -82,7 +80,7 @@ $computer : 55rem;
   }
 
   .nav-toggle {
-    display: none;  
+    display: none;
   }
 
   .main-nav {
@@ -94,7 +92,7 @@ $computer : 55rem;
     clear: none;
     ul {
       li {
-        display: inline-block;  
+        display: inline-block;
         & + li {
           margin-left: 20px;
         }

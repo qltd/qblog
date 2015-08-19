@@ -17,10 +17,12 @@
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <!-- Google Fonts > ASAP -->
 <link href='http://fonts.googleapis.com/css?family=Asap:400,400italic' rel='stylesheet' type='text/css'>
+<script src="//use.typekit.net/hia2tcg.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 <!-- Other Fonts > Nevis & Fontomas -->
 <link href='http://static.tumblr.com/g8b5dgd/fiym47mol/fonts.css' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/view-action.js"></script> 
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/view-action.js"></script>
 <?php wp_head(); ?>
 </head>
 
@@ -30,7 +32,7 @@
 	<header id="qblog_header" class="header clearfix" role="banner">
         <h1 class="logo"><a href="/" rel="home">Q Design & Communication Since 1981</a></h1>
         <div class="nav-toggle"><i class="fa fa-bars"></i></div>
-		<nav id="" class="main-nav open" role="navigation">
+		<nav id="" class="main-nav" role="navigation">
             <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

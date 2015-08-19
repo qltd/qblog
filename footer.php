@@ -18,7 +18,7 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js"></script>
 <script>
 ( function( $ ) {
-    
+
     var $container = $('#posts');
 
     $container.masonry({
@@ -38,7 +38,7 @@
 
     //hide nav on mobile
     $('.nav-toggle').click(function(){
-        $('.main-nav').slideToggle();
+        $('.main-nav').toggleClass('open');
     });
 
 } )( jQuery );
