@@ -28,6 +28,9 @@ a {
 
 #qblog_header {
     position: fixed;
+    background: red;
+
+
     a {
         text-decoration: none;
     }
@@ -48,6 +51,7 @@ a {
             margin-bottom: 0;
        }
     }
+
 
     margin-right: 6%;
 }
