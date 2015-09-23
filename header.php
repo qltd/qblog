@@ -36,6 +36,16 @@
             <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+
+<?php if (is_tag()): ?>
+        <header class="tag-header">
+                <?php
+                    the_archive_title( '<h1 class="page-title">', '</h1>' );
+                ?>
+            </header><!-- .page-header -->
+<?php endif; ?>
+
+
 <nav id="view_dropdown">
 <ul data-dropdown="dropdown" class="filter">
     <li class="dropdown">

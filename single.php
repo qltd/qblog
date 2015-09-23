@@ -14,7 +14,7 @@ get_header(); ?>
 
 				<?php get_template_part( 'content', 'single' ); ?>
 
-				<?php the_post_navigation(); ?>
+
 
 			<?php endwhile; // end of the loop. ?>
 	    </section>
@@ -22,6 +22,12 @@ get_header(); ?>
 	    <div id="post-details">
 	        <?php get_sidebar(); ?>
 	    </div>
+
+                <div class="post-navigation">
+                    <div class="prev"><?php previous_post_link('%link', 'Prev Post', TRUE); ?> </div>
+                    <div class="next"><?php next_post_link('%link', 'Next Post', TRUE); ?></div>
+                </div>
+
    	</div>
 </div>
 <?php get_footer(); ?>
