@@ -5,6 +5,23 @@
  * @package qblog
  */
 
+
+
+add_filter( 'get_the_archive_title', function ($title) {
+
+    if ( is_tag() ) {
+
+            $title = '<i class="fa fa-info-circle"></i> Displaying posts tagged: <strong>';
+            $title .= single_tag_title( '', false );
+            $title .= '</strong>';
+
+    }
+
+    return $title;
+
+});
+
+
 /**
  * Set the content width based on the theme's design and stylesheet.
  */
