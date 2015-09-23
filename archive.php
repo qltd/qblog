@@ -13,11 +13,16 @@ get_header(); ?>
           <section id="posts" class="page-index isotope">
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
+			<header class="page-header archived">
+
+				<?php if (is_tag()): ?>
+					<h2 class="">Displaying posts tagged: #<?php echo single_tag_title( '', false ); ?></h2>
+				<?php else: ?>
 				<?php
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
+				<?php endif;  ?>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>

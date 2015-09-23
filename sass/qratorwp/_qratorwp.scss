@@ -18,17 +18,19 @@
 //     font-style: normal;
 // }
 
+
 a {
     text-decoration: none;
     transition: all 0.2s ease-out 0s;
 }
 
 
+
+
 .centered { width: 100%; max-width: 1400px; margin: 0 auto;  }
 
 #qblog_header {
     position: fixed;
-    background: red;
 
 
     a {
@@ -189,6 +191,9 @@ nav.navigation.posts-navigation {
     }
 
 }
+
+
+
 
 @media (max-width:1586px){
     .centered { padding: 0 6% 0 4%; }

@@ -146,7 +146,7 @@ function the_archive_title( $before = '', $after = '' ) {
 	if ( is_category() ) {
 		$title = sprintf( __( 'Category: %s', 'qblog' ), single_cat_title( '', false ) );
 	} elseif ( is_tag() ) {
-		$title = sprintf( __( 'Tag: %s', 'qblog' ), single_tag_title( '', false ) );
+		$title = sprintf( __( 'Displaying posts tagged: #%s', 'qblog' ), single_tag_title( '', false ) );
 	} elseif ( is_author() ) {
 		$title = sprintf( __( 'Author: %s', 'qblog' ), '<span class="vcard">' . get_the_author() . '</span>' );
 	} elseif ( is_year() ) {
