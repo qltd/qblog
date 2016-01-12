@@ -153,6 +153,7 @@ nav.navigation.posts-navigation {
     max-width: 62%;
     margin-bottom: 5px;
     a {
+      text-decoration: none;
         &:before {
             content: '#';
         }
@@ -235,8 +236,11 @@ nav.navigation.posts-navigation {
     }
     .main-nav.open { max-height: 500px; }
     .main-nav li { padding: 20px 0; }
-    #view_dropdown { margin-top: 5px;width: 90%;
+    #view_dropdown { margin-top: 105px; width: 90%;
       ul.filter { width: 100%; }
+      .tag & {
+        margin-top: 5px;
+      }
     }
     .tag-header { width: 100%; margin-top: 102px; }
 }
@@ -250,6 +254,10 @@ nav.navigation.posts-navigation {
             .date { float: left; width: 100%; }
             .tags-links {float: left; max-width: 100%;  }
         }
+    }
+
+    .post-navigation {
+      width: 100%;
     }
 
 
