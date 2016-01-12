@@ -3984,7 +3984,7 @@ nav.navigation.posts-navigation {
 /* line 200, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details .tags-links {
   width: 100%;
-  min-width: 200px;
+  min-width: 255px;
   float: left;
   margin: 10px 0;
 }

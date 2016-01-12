@@ -197,7 +197,7 @@ nav.navigation.posts-navigation {
         width:37%;
         margin: 2.5em 0 0;
         .date, .edit-link, .tags-links { font-size: 1em; float: none; }
-        .tags-links { width: 100%; min-width: 200px; float: left; margin: 10px 0; }
+        .tags-links { width: 100%; min-width: 255px; float: left; margin: 10px 0; }
         .date:before { font-family: fontawesome; content: "\f017"; margin-right: 5px; }
         .tags-links:before { font-family: fontawesome; content: "\f02c"; margin-right: 5px; }
     }
@@ -214,7 +214,7 @@ nav.navigation.posts-navigation {
     background: #fff;
     .prev, .next { font-weight: bold; font-size: 14px; text-transform: uppercase;
       a {
-        text-decoration: none; 
+        text-decoration: none;
       }
     }
     .prev { float: left; }
