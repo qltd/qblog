@@ -20,11 +20,9 @@
 
 
 a {
-    text-decoration: none;
     transition: all 0.2s ease-out 0s;
+
 }
-
-
 
 
 .centered { width: 100%; max-width: 1400px; margin: 0 auto;  }
@@ -116,10 +114,10 @@ a {
     }
 
     .gallery-columns-3 .gallery-item {
-        max-width: 100%;
+        max-width: 100% !important;
     }
 
-    .post_format-post-format-gallery {
+    .post_format-post-format-image,.post_format-post-format-gallery {
         header {
             display:none;
         }

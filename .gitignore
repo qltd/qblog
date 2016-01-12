@@ -3,3 +3,4 @@
 .DS_Store
 compass_app_log.txt
 config.rb
+prepros.cfg
