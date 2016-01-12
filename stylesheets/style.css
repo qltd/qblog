@@ -2812,365 +2812,349 @@ ol.notes li.more_notes_link_container a:hover {
   }
 
   /* line 183, ../sass/pftumblr/_pftumblr-default.scss */
-  nav .filter .dropdown {
-    width: 16.25em;
-    margin-bottom: 2.5em;
-  }
-
-  /* line 184, ../sass/pftumblr/_pftumblr-default.scss */
   .container, .pagination {
     width: 16.3125em;
   }
 
-  /* line 185, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 184, ../sass/pftumblr/_pftumblr-default.scss */
   #posts {
     width: 18.8125em;
   }
 
-  /* line 186, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 185, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post {
     width: 16.25em;
   }
 
-  /* line 187, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 186, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post .lines {
     width: 13.625em;
   }
 
-  /* line 188, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 187, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .wrapper img {
     width: 13.75em;
     height: 13.75em;
   }
 
-  /* line 189, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 188, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .player {
     margin-top: 1.25em;
     width: 13.75em;
     height: 7.5em;
   }
 
-  /* line 190, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 189, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\31 {
     width: 100%;
   }
 
-  /* line 191, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 190, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\32 {
     width: 50%;
   }
 
-  /* line 192, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 191, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\32.last {
     width: 51%;
     margin-left: -0.99%;
   }
 
-  /* line 193, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 192, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\33 {
     width: 34%;
   }
 
-  /* line 194, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 193, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.99%;
   }
 
-  /* line 195, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 194, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\31 {
     width: 100%;
   }
 
-  /* line 196, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 195, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\32 {
     width: 50%;
     margin-top: -2px;
   }
 
-  /* line 197, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 196, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\32.last {
     width: 51%;
     margin-left: -0.99%;
   }
 
-  /* line 198, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 197, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\33 {
     width: 34%;
     margin-top: -2px;
   }
 
-  /* line 199, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 198, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\33.last {
     width: 34%;
     margin-left: -1.99%;
   }
 
-  /* line 200, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 199, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post-nav, #posts.page-permalink .post, #posts.page-permalink #disqus_thread, #posts.page-permalink ol.notes {
     width: 16.25em;
   }
 
-  /* line 201, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 200, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink #post-details {
     width: 16.25em;
     float: left;
   }
 
-  /* line 202, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 201, ../sass/pftumblr/_pftumblr-default.scss */
   ol.notes li {
     width: 100%;
   }
 
-  /* line 203, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 202, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container {
     width: 18.8125em;
   }
 
-  /* line 204, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 203, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter {
     width: 16.25em;
   }
 
-  /* line 205, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 204, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container .site-tags {
     width: 6.875em;
   }
 
-  /* line 206, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 205, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #tumblr-link, footer .container #theme-credit, footer .container #social-links {
     width: 16.25em;
     margin: 0 1.25em;
     text-align: left;
   }
 
-  /* line 207, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 206, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #tumblr-link, footer .container #site-links, footer .container #social-links {
     display: none;
   }
 }
 @media screen and (min-width: 0em) and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 210, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 209, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.5%;
   }
 
-  /* line 211, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 210, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.5%;
   }
 }
 @media screen and (min-width: 27.5em) {
-  /* line 214, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 213, ../sass/pftumblr/_pftumblr-default.scss */
   header .logo {
     width: 22.5em;
     text-align: center;
   }
 
-  /* line 215, ../sass/pftumblr/_pftumblr-default.scss */
-  nav .filter .dropdown {
-    width: 22.5em;
-  }
-
-  /* line 215, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 214, ../sass/pftumblr/_pftumblr-default.scss */
   .container, .pagination {
     width: 22.5625em;
   }
 
-  /* line 216, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 215, ../sass/pftumblr/_pftumblr-default.scss */
   #posts {
     width: 25.0625em;
   }
 
-  /* line 217, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 216, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post {
     width: 22.5em;
   }
 
-  /* line 218, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 217, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post .lines {
     width: 19.875em;
   }
 
-  /* line 219, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 218, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .wrapper img {
     width: 20em;
     height: 20em;
   }
 
-  /* line 220, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 219, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .player {
     margin-top: 1.25em;
     width: 20em;
     height: 7.5em;
   }
 
-  /* line 221, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 220, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\32.last {
     margin-left: -0.995%;
   }
 
-  /* line 222, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 221, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.995%;
   }
 
-  /* line 223, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 222, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\32.last {
     margin-left: -0.995%;
   }
 
-  /* line 224, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 223, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.995%;
   }
 
-  /* line 225, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 224, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post-nav, #posts.page-permalink .post, #posts.page-permalink #disqus_thread, #posts.page-permalink ol.notes {
     width: 22.5em;
   }
 
-  /* line 226, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 225, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink #post-details {
     width: 22.5em;
   }
 
-  /* line 227, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 226, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container {
     width: 25.0625em;
   }
 
-  /* line 228, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 227, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter {
     width: 22.5em;
   }
 
-  /* line 229, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 228, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container .site-tags {
     width: 10em;
   }
 
-  /* line 230, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 229, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #tumblr-link, footer .container #theme-credit, footer .container #social-links {
     width: 22.5em;
   }
 }
 @media screen and (min-width: 27.5em) and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 233, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 232, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.5%;
   }
 
-  /* line 234, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 233, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.5%;
   }
 }
 @media screen and (min-width: 28.75em) {
-  /* line 237, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 236, ../sass/pftumblr/_pftumblr-default.scss */
   header .logo {
     width: 26.25em;
     text-align: center;
   }
 
-  /* line 238, ../sass/pftumblr/_pftumblr-default.scss */
-  nav .filter .dropdown {
-    width: 26.25em;
-  }
-
-  /* line 239, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 237, ../sass/pftumblr/_pftumblr-default.scss */
   .container, .pagination {
     width: 26.3125em;
   }
 
-  /* line 240, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 238, ../sass/pftumblr/_pftumblr-default.scss */
   #posts {
     width: 28.8125em;
   }
 
-  /* line 241, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 239, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post {
     width: 26.25em;
   }
 
-  /* line 242, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 240, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post .lines {
     width: 23.625em;
   }
 
-  /* line 243, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 241, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .wrapper img {
     width: 7.874999999999999em;
     height: 7.874999999999999em;
   }
 
-  /* line 244, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 242, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .player {
     width: 15.4375em;
     height: 8.3125em;
     margin-top: 0;
   }
 
-  /* line 245, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 243, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post-nav, #posts.page-permalink .post, #posts.page-permalink #disqus_thread, #posts.page-permalink ol.notes {
     width: 26.25em;
   }
 
-  /* line 245, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 243, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink #post-details {
     width: 26.25em;
   }
 
-  /* line 246, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 244, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container {
     width: 28.8125em;
   }
 
-  /* line 246, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 244, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter {
     width: 26.25em;
   }
 
-  /* line 247, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 245, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container .site-tags {
     width: 11.875em;
   }
 
-  /* line 248, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 246, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #tumblr-link, footer .container #theme-credit, footer .container #social-links {
     width: 26.25em;
   }
 }
 @media screen and (min-width: 28.75em) and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 251, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 249, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.995%;
   }
 
-  /* line 252, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 250, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.995%;
   }
 }
 @media screen and (min-width: 52.5em) {
-  /* line 255, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 253, ../sass/pftumblr/_pftumblr-default.scss */
   header .container {
     padding: 4.375em 0;
   }
 
-  /* line 256, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 254, ../sass/pftumblr/_pftumblr-default.scss */
   header .logo {
     width: auto;
     text-align: left;
     float: none;
   }
 
-  /* line 257, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 255, ../sass/pftumblr/_pftumblr-default.scss */
   header .logo img {
     margin-right: 0.625em;
     margin-top: -0.375em;
   }
 
-  /* line 258, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 256, ../sass/pftumblr/_pftumblr-default.scss */
   header .logo span {
     width: auto;
     text-align: left;
@@ -3178,7 +3162,7 @@ ol.notes li.more_notes_link_container a:hover {
     display: inline-block;
   }
 
-  /* line 259, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 257, ../sass/pftumblr/_pftumblr-default.scss */
   nav .pages {
     display: inline-block;
     padding: 0;
@@ -3187,470 +3171,455 @@ ol.notes li.more_notes_link_container a:hover {
     float: left;
   }
 
-  /* line 260, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 258, ../sass/pftumblr/_pftumblr-default.scss */
   nav {
     float: right;
     margin-top: 0.6875em;
   }
 
-  /* line 261, ../sass/pftumblr/_pftumblr-default.scss */
-  nav .filter {
-    margin-left: 1.875em;
-  }
-
-  /* line 262, ../sass/pftumblr/_pftumblr-default.scss */
-  nav .filter .dropdown {
-    width: 14.166525em;
-  }
-
-  /* line 263, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 259, ../sass/pftumblr/_pftumblr-default.scss */
   nav .filter .dropdown.open .dropdown-menu li.pages-in-nav {
     display: none;
   }
 
-  /* line 264, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 260, ../sass/pftumblr/_pftumblr-default.scss */
   .container, .pagination {
     width: 47.5625em;
   }
 
-  /* line 264, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 260, ../sass/pftumblr/_pftumblr-default.scss */
   #posts {
     width: 50.0625em;
   }
 
-  /* line 265, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 261, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post {
     width: 22.5em;
   }
 
-  /* line 265, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 261, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post .lines {
     width: 19.875em;
   }
 
-  /* line 266, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 262, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .wrapper img {
     width: 6.5625em;
     height: 6.5625em;
   }
 
-  /* line 267, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 263, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .player {
     width: 13em;
     height: 6.5625em;
     margin-top: 0;
   }
 
-  /* line 268, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 264, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.9975%;
   }
 
-  /* line 269, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 265, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post {
     width: 30.833025000000003em;
   }
 
-  /* line 270, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 266, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post .lines {
     width: 28.208025000000003em;
   }
 
-  /* line 271, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 267, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post-nav, #posts.page-permalink #disqus_thread,
   #posts.page-permalink ol.notes {
     width: 30.833025000000003em;
   }
 
-  /* line 273, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 269, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink #post-details {
     width: 14.166525em;
     float: right;
   }
 
-  /* line 274, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 270, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.audio .wrapper img {
     width: 9.47905875em;
     height: 9.47905875em;
   }
 
-  /* line 275, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 271, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.audio .player {
     width: 18.416466250000002em;
     height: 9.47905875em;
   }
 
-  /* line 276, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 272, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container {
     width: 50.0625em;
   }
 
-  /* line 277, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 273, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter {
     width: 47.5em;
     padding: 0;
   }
 
-  /* line 278, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 274, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter .tweet_odd, footer .container #recent-twitter .tweet_even {
     width: 47.5%;
     float: left;
   }
 
-  /* line 279, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 275, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter .tweet_odd {
     margin-right: 2.5em;
   }
 
-  /* line 280, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 276, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #site-links, footer .container #site-links, footer .container #social-links, footer .container .site-tags {
     width: 10em;
   }
 
-  /* line 281, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 277, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #tumblr-link, footer .container #site-links, footer .container #social-links {
     display: inline-block;
   }
 
-  /* line 282, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 278, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #tumblr-link, footer .container #theme-credit {
     width: 22.5em;
   }
 
-  /* line 283, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 279, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #theme-credit {
     float: right;
     text-align: right;
   }
 }
 @media screen and (min-width: 52.5em) and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 286, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 282, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.5%;
   }
 
-  /* line 287, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 283, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.5%;
   }
 }
 @media screen and (min-width: 60.0625em) {
-  /* line 290, ../sass/pftumblr/_pftumblr-default.scss */
-  nav .filter .dropdown {
-    width: 17.499825em;
-  }
-
-  /* line 291, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 286, ../sass/pftumblr/_pftumblr-default.scss */
   .container, .pagination {
     width: 55.0625em;
   }
 
-  /* line 292, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 287, ../sass/pftumblr/_pftumblr-default.scss */
   #posts {
     width: 57.5625em;
   }
 
-  /* line 293, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 288, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post {
     width: 26.25em;
   }
 
-  /* line 294, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 289, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post .lines {
     width: 23.625em;
   }
 
-  /* line 295, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 290, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .wrapper img {
     width: 7.874999999999999em;
     height: 7.874999999999999em;
   }
 
-  /* line 296, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 291, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .player {
     width: 15.4375em;
     height: 7.874999999999999em;
     margin-top: 0;
   }
 
-  /* line 297, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 292, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post {
     width: 34.99965em;
   }
 
-  /* line 298, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 293, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post .lines {
     width: 32.37465em;
   }
 
-  /* line 299, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 294, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post-nav, #posts.page-permalink #disqus_thread, #posts.page-permalink ol.notes {
     width: 34.99965em;
   }
 
-  /* line 300, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 295, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink #post-details {
     width: 17.499825em;
     float: right;
   }
 
-  /* line 301, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 296, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.audio .wrapper img {
     width: 10.9373775em;
     height: 10.9373775em;
   }
 
-  /* line 302, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 297, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.audio .player {
     width: 21.124772500000002em;
     height: 10.9373775em;
   }
 
-  /* line 303, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 298, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container {
     width: 57.5625em;
   }
 
-  /* line 304, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 299, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter {
     width: 16.2498375em;
     margin-top: 2.5em;
   }
 
-  /* line 305, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 300, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter .tweet_odd, footer .container #recent-twitter .tweet_even {
     width: 100%;
     float: left;
   }
 
-  /* line 306, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 301, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter .tweet_odd {
     margin-right: 0;
   }
 
-  /* line 307, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 302, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #site-links, footer .container .site-tags, footer .container #social-links {
     width: 7.187412500000001em;
   }
 
-  /* line 308, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 303, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #tumblr-link, footer .container #theme-credit {
     width: 26.25em;
   }
 }
 @media screen and (min-width: 60.0625em) and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 311, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 306, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.995%;
   }
 
-  /* line 312, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 307, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.75%;
   }
 }
 @media screen and (min-width: 77.5625em) {
-  /* line 315, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 310, ../sass/pftumblr/_pftumblr-default.scss */
   .container, .pagination {
     width: 72.5625em;
   }
 
-  /* line 316, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 311, ../sass/pftumblr/_pftumblr-default.scss */
   #posts {
     width: 75.0625em;
   }
 
-  /* line 317, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 312, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post {
     width: 22.499775em;
   }
 
-  /* line 318, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 313, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post .lines {
     width: 19.874775em;
   }
 
-  /* line 319, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 314, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .wrapper img {
     width: 6.56242125em;
     height: 6.56242125em;
   }
 
-  /* line 320, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 315, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .player {
     width: 12.99985375em;
     height: 6.56242125em;
   }
 
-  /* line 321, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 316, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\32.last {
     margin-left: -0.9975%;
   }
 
-  /* line 322, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 317, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post, #posts.page-permalink #disqus_thread, #posts.page-permalink ol.notes {
     width: 47.499525000000005em;
   }
 
-  /* line 323, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 318, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post-nav, #posts.page-permalink .post .lines, #posts.page-permalink #disqus_thread .lines, #posts.page-permalink ol.notes .lines {
     width: 44.874525000000005em;
   }
 
-  /* line 324, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 319, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink #post-details {
     width: 22.499775em;
   }
 
-  /* line 325, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 320, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.audio .wrapper img {
     width: 15.31233375em;
     height: 15.31233375em;
   }
 
-  /* line 326, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 321, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.audio .player {
     width: 29.249691250000005em;
     height: 15.31233375em;
   }
 
-  /* line 327, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 322, ../sass/pftumblr/_pftumblr-default.scss */
   ol.notes {
     float: left;
   }
 
-  /* line 328, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 323, ../sass/pftumblr/_pftumblr-default.scss */
   ol.notes li {
     width: 50%;
     float: left;
   }
 
-  /* line 329, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 324, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container {
     width: 75.0625em;
   }
 
-  /* line 330, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 325, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter {
     width: 22.499775em;
   }
 
-  /* line 331, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 326, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #site-links, footer .container .site-tags, footer .container #social-links {
     width: 9.999881250000001em;
   }
 
-  /* line 332, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 327, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #tumblr-link, footer .container #theme-credit {
     width: 35em;
   }
 }
 @media screen and (min-width: 77.5625em) and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 335, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 330, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.5%;
   }
 
-  /* line 336, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 331, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.75%;
   }
 }
 @media screen and (min-width: 90.0625em) {
-  /* line 339, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 334, ../sass/pftumblr/_pftumblr-default.scss */
   .container, .pagination {
     width: 85.0625em;
   }
 
-  /* line 340, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 335, ../sass/pftumblr/_pftumblr-default.scss */
   #posts {
     width: 87.5625em;
   }
 
-  /* line 341, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 336, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post {
     width: 26.666400000000003em;
   }
 
-  /* line 342, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 337, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post .lines {
     width: 24.041400000000003em;
   }
 
-  /* line 343, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 338, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .wrapper img {
     width: 8.02074em;
     height: 8.02074em;
   }
 
-  /* line 344, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 339, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.audio .player {
     width: 15.708160000000003em;
     height: 8.02074em;
   }
 
-  /* line 345, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 340, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post-nav, #posts.page-permalink .post, #posts.page-permalink #disqus_thread, #posts.page-permalink ol.notes {
     width: 55.832775000000005em;
   }
 
-  /* line 346, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 341, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post .lines, #posts.page-permalink #disqus_thread .lines, #posts.page-permalink ol.notes .lines {
     width: 53.207775000000005em;
   }
 
-  /* line 347, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 342, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink #post-details {
     width: 26.666400000000003em;
     float: right;
   }
 
-  /* line 348, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 343, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.audio .wrapper img {
     width: 18.22897125em;
     height: 18.22897125em;
   }
 
-  /* line 349, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 344, ../sass/pftumblr/_pftumblr-default.scss */
   #posts.page-permalink .post.audio .player {
     width: 34.666303750000004em;
     height: 18.22897125em;
   }
 
-  /* line 350, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 345, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container {
     width: 87.5625em;
   }
 
-  /* line 351, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 346, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #recent-twitter {
     width: 26.666400000000003em;
   }
 
-  /* line 352, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 347, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #site-links, footer .container .site-tags, footer .container #social-links {
     width: 12.083193750000001em;
   }
 
-  /* line 353, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 348, ../sass/pftumblr/_pftumblr-default.scss */
   footer .container #tumblr-link, footer .container #theme-credit {
     width: 40.9375em;
   }
 }
 @media screen and (min-width: 90.0625em) and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 356, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 351, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .post.photoset .photoset-grid li.\33.last {
     margin-left: -1.995%;
   }
 }
 /* Firefox Fixes */
 @-moz-document url-prefix() {
-  /* line 360, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 355, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .photoset .photoset-grid {
     margin-bottom: -6px;
   }
 
-  /* line 361, ../sass/pftumblr/_pftumblr-default.scss */
+  /* line 356, ../sass/pftumblr/_pftumblr-default.scss */
   #posts .photoset .photoset-grid li {
     margin-bottom: -2px;
   }
@@ -3803,31 +3772,41 @@ a {
 /* line 41, ../sass/qratorwp/_qratorwp.scss */
 #view_dropdown {
   margin-top: 129px;
+  width: 37%;
   margin-right: 6%;
 }
 /* line 44, ../sass/qratorwp/_qratorwp.scss */
+#view_dropdown ul.filter {
+  float: right;
+  width: 66%;
+}
+/* line 48, ../sass/qratorwp/_qratorwp.scss */
+#view_dropdown ul.filter .dropdown {
+  width: 100%;
+}
+/* line 52, ../sass/qratorwp/_qratorwp.scss */
 #view_dropdown li {
   margin-bottom: 4px;
 }
-/* line 48, ../sass/qratorwp/_qratorwp.scss */
+/* line 56, ../sass/qratorwp/_qratorwp.scss */
 #view_dropdown #dropdown-menu {
   margin-left: 0;
 }
-/* line 50, ../sass/qratorwp/_qratorwp.scss */
+/* line 58, ../sass/qratorwp/_qratorwp.scss */
 #view_dropdown #dropdown-menu li {
   margin-bottom: 0;
 }
 
-/* line 59, ../sass/qratorwp/_qratorwp.scss */
+/* line 67, ../sass/qratorwp/_qratorwp.scss */
 .tag-header {
   border-bottom: none;
   margin-top: 135px;
   margin-left: 5%;
   float: left;
   margin-bottom: 0;
-  max-width: 700px;
+  width: 50%;
 }
-/* line 60, ../sass/qratorwp/_qratorwp.scss */
+/* line 68, ../sass/qratorwp/_qratorwp.scss */
 .tag-header h1 {
   margin: 0;
   padding: 0;
@@ -3837,104 +3816,104 @@ a {
   font-weight: 700;
   font-family: 'proxima-nova', sans-serif;
 }
-/* line 61, ../sass/qratorwp/_qratorwp.scss */
+/* line 69, ../sass/qratorwp/_qratorwp.scss */
 .tag-header h1 i, .tag-header h1 strong {
   color: #222;
 }
 
-/* line 68, ../sass/qratorwp/_qratorwp.scss */
+/* line 76, ../sass/qratorwp/_qratorwp.scss */
 #post .post header {
   border: none;
 }
-/* line 69, ../sass/qratorwp/_qratorwp.scss */
+/* line 77, ../sass/qratorwp/_qratorwp.scss */
 #post .post header h1 {
   margin-bottom: 0px;
   font-family: 'proxima-nova', sans-serif;
   font-weight: 700;
 }
 
-/* line 75, ../sass/qratorwp/_qratorwp.scss */
+/* line 83, ../sass/qratorwp/_qratorwp.scss */
 #posts .post {
   opacity: 1;
   border: none;
   border-radius: 2px;
   padding: 1.20em 1.20em 0;
 }
-/* line 80, ../sass/qratorwp/_qratorwp.scss */
+/* line 88, ../sass/qratorwp/_qratorwp.scss */
 #posts .post a {
   text-decoration: none;
 }
-/* line 82, ../sass/qratorwp/_qratorwp.scss */
+/* line 90, ../sass/qratorwp/_qratorwp.scss */
 #posts .post a:visited {
   color: #3d393a;
 }
-/* line 90, ../sass/qratorwp/_qratorwp.scss */
+/* line 98, ../sass/qratorwp/_qratorwp.scss */
 #posts .entry-content {
   margin-top: 0;
 }
-/* line 94, ../sass/qratorwp/_qratorwp.scss */
+/* line 102, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image, #posts .post_format-post-format-gallery {
   padding: 0em;
 }
-/* line 96, ../sass/qratorwp/_qratorwp.scss */
+/* line 104, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image img, #posts .post_format-post-format-gallery img {
   width: 100%;
   height: auto;
 }
-/* line 97, ../sass/qratorwp/_qratorwp.scss */
+/* line 105, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image p, #posts .post_format-post-format-image br, #posts .post_format-post-format-image .more-link, #posts .post_format-post-format-gallery p, #posts .post_format-post-format-gallery br, #posts .post_format-post-format-gallery .more-link {
   display: none;
 }
-/* line 98, ../sass/qratorwp/_qratorwp.scss */
+/* line 106, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image .entry-footer, #posts .post_format-post-format-gallery .entry-footer {
   padding: 0 1.20em 0;
 }
-/* line 99, ../sass/qratorwp/_qratorwp.scss */
+/* line 107, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image .gallery, #posts .post_format-post-format-gallery .gallery {
   margin-bottom: 0px;
 }
-/* line 103, ../sass/qratorwp/_qratorwp.scss */
+/* line 111, ../sass/qratorwp/_qratorwp.scss */
 #posts header {
   border-bottom: none;
 }
-/* line 105, ../sass/qratorwp/_qratorwp.scss */
+/* line 113, ../sass/qratorwp/_qratorwp.scss */
 #posts header h1 {
   line-height: 1.63636em;
   font-weight: bold;
   font-family: "proxima-nova-1","proxima-nova-2",sans-serif;
 }
-/* line 112, ../sass/qratorwp/_qratorwp.scss */
+/* line 120, ../sass/qratorwp/_qratorwp.scss */
 #posts footer {
   border-top: none;
 }
-/* line 116, ../sass/qratorwp/_qratorwp.scss */
+/* line 124, ../sass/qratorwp/_qratorwp.scss */
 #posts .gallery-columns-3 .gallery-item {
   max-width: 100% !important;
 }
-/* line 121, ../sass/qratorwp/_qratorwp.scss */
+/* line 129, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image header, #posts .post_format-post-format-gallery header {
   display: none;
 }
-/* line 124, ../sass/qratorwp/_qratorwp.scss */
+/* line 132, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image .entry-content, #posts .post_format-post-format-gallery .entry-content {
   margin-top: 0;
 }
-/* line 126, ../sass/qratorwp/_qratorwp.scss */
+/* line 134, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image .entry-content p, #posts .post_format-post-format-image .entry-content br, #posts .post_format-post-format-gallery .entry-content p, #posts .post_format-post-format-gallery .entry-content br {
   display: none;
 }
 
-/* line 134, ../sass/qratorwp/_qratorwp.scss */
+/* line 142, ../sass/qratorwp/_qratorwp.scss */
 .nav-links {
   display: none;
 }
 
-/* line 136, ../sass/qratorwp/_qratorwp.scss */
+/* line 144, ../sass/qratorwp/_qratorwp.scss */
 nav.navigation.posts-navigation {
   float: none;
 }
 
-/* line 140, ../sass/qratorwp/_qratorwp.scss */
+/* line 148, ../sass/qratorwp/_qratorwp.scss */
 .tags-links {
   font-size: 0.6rem;
   float: right;
@@ -3943,12 +3922,12 @@ nav.navigation.posts-navigation {
   max-width: 62%;
   margin-bottom: 5px;
 }
-/* line 148, ../sass/qratorwp/_qratorwp.scss */
+/* line 156, ../sass/qratorwp/_qratorwp.scss */
 .tags-links a:before {
   content: '#';
 }
 
-/* line 155, ../sass/qratorwp/_qratorwp.scss */
+/* line 163, ../sass/qratorwp/_qratorwp.scss */
 .date, .edit-link {
   font-size: 0.6rem;
   float: left;
@@ -3957,30 +3936,30 @@ nav.navigation.posts-navigation {
   padding-bottom: .5em;
 }
 
-/* line 164, ../sass/qratorwp/_qratorwp.scss */
+/* line 172, ../sass/qratorwp/_qratorwp.scss */
 .more-link {
   font-size: 0.8rem;
   padding: 0;
   margin: 0;
   font-style: italic;
 }
-/* line 169, ../sass/qratorwp/_qratorwp.scss */
+/* line 177, ../sass/qratorwp/_qratorwp.scss */
 .more-link:after {
   content: "...";
 }
 
-/* line 174, ../sass/qratorwp/_qratorwp.scss */
+/* line 182, ../sass/qratorwp/_qratorwp.scss */
 .social-sharing {
   width: 100%;
   float: left;
   margin-top: 20px;
 }
 
-/* line 176, ../sass/qratorwp/_qratorwp.scss */
+/* line 184, ../sass/qratorwp/_qratorwp.scss */
 #post {
   margin: 0 auto;
 }
-/* line 179, ../sass/qratorwp/_qratorwp.scss */
+/* line 187, ../sass/qratorwp/_qratorwp.scss */
 #post #post_content {
   float: left;
   width: 60%;
@@ -3990,39 +3969,39 @@ nav.navigation.posts-navigation {
   margin: 2.5em 3% 0 0;
   padding: 2rem;
 }
-/* line 189, ../sass/qratorwp/_qratorwp.scss */
+/* line 197, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details {
   float: right;
   border: none;
   width: 37%;
   margin: 2.5em 0 0;
 }
-/* line 194, ../sass/qratorwp/_qratorwp.scss */
+/* line 202, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details .date, #post #post-details .edit-link, #post #post-details .tags-links {
   font-size: 1em;
   float: none;
 }
-/* line 195, ../sass/qratorwp/_qratorwp.scss */
+/* line 203, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details .tags-links {
   width: 100%;
   min-width: 200px;
   float: left;
   margin: 10px 0;
 }
-/* line 196, ../sass/qratorwp/_qratorwp.scss */
+/* line 204, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details .date:before {
   font-family: fontawesome;
   content: "\f017";
   margin-right: 5px;
 }
-/* line 197, ../sass/qratorwp/_qratorwp.scss */
+/* line 205, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details .tags-links:before {
   font-family: fontawesome;
   content: "\f02c";
   margin-right: 5px;
 }
 
-/* line 202, ../sass/qratorwp/_qratorwp.scss */
+/* line 210, ../sass/qratorwp/_qratorwp.scss */
 .post-navigation {
   width: 60%;
   float: left;
@@ -4032,80 +4011,91 @@ nav.navigation.posts-navigation {
   padding: 1rem;
   background: #fff;
 }
-/* line 210, ../sass/qratorwp/_qratorwp.scss */
+/* line 218, ../sass/qratorwp/_qratorwp.scss */
 .post-navigation .prev, .post-navigation .next {
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
 }
-/* line 211, ../sass/qratorwp/_qratorwp.scss */
+/* line 219, ../sass/qratorwp/_qratorwp.scss */
 .post-navigation .prev {
   float: left;
 }
-/* line 212, ../sass/qratorwp/_qratorwp.scss */
+/* line 220, ../sass/qratorwp/_qratorwp.scss */
 .post-navigation .next {
   float: right;
 }
 
 @media (max-width: 1586px) {
-  /* line 217, ../sass/qratorwp/_qratorwp.scss */
+  /* line 225, ../sass/qratorwp/_qratorwp.scss */
   .centered {
     padding: 0 6% 0 4%;
   }
 }
 @media (max-width: 880px) {
-  /* line 223, ../sass/qratorwp/_qratorwp.scss */
+  /* line 231, ../sass/qratorwp/_qratorwp.scss */
   .main-nav {
     width: 100%;
     position: absolute;
     top: 89px;
   }
 
-  /* line 228, ../sass/qratorwp/_qratorwp.scss */
+  /* line 236, ../sass/qratorwp/_qratorwp.scss */
   .main-nav.open {
     max-height: 500px;
   }
 
-  /* line 229, ../sass/qratorwp/_qratorwp.scss */
+  /* line 237, ../sass/qratorwp/_qratorwp.scss */
   .main-nav li {
     padding: 20px 0;
   }
 
-  /* line 230, ../sass/qratorwp/_qratorwp.scss */
+  /* line 238, ../sass/qratorwp/_qratorwp.scss */
   #view_dropdown {
-    margin-top: 105px;
+    margin-top: 5px;
+    width: 90%;
+  }
+  /* line 239, ../sass/qratorwp/_qratorwp.scss */
+  #view_dropdown ul.filter {
+    width: 100%;
+  }
+
+  /* line 241, ../sass/qratorwp/_qratorwp.scss */
+  .tag-header {
+    width: 100%;
+    margin-top: 102px;
   }
 }
 @media (max-width: 860px) {
-  /* line 234, ../sass/qratorwp/_qratorwp.scss */
+  /* line 245, ../sass/qratorwp/_qratorwp.scss */
   #post_content footer {
     display: none;
   }
 
-  /* line 235, ../sass/qratorwp/_qratorwp.scss */
+  /* line 246, ../sass/qratorwp/_qratorwp.scss */
   #post #post_content, #post #post-details {
     width: 100%;
     float: left;
   }
 
-  /* line 236, ../sass/qratorwp/_qratorwp.scss */
+  /* line 247, ../sass/qratorwp/_qratorwp.scss */
   .centered {
     padding: 0 4% 0 4%;
   }
 
-  /* line 239, ../sass/qratorwp/_qratorwp.scss */
+  /* line 250, ../sass/qratorwp/_qratorwp.scss */
   #post #post-details .date {
     float: left;
     width: 100%;
   }
-  /* line 240, ../sass/qratorwp/_qratorwp.scss */
+  /* line 251, ../sass/qratorwp/_qratorwp.scss */
   #post #post-details .tags-links {
     float: left;
     max-width: 100%;
   }
 }
 @media (max-width: 840px) {
-  /* line 248, ../sass/qratorwp/_qratorwp.scss */
+  /* line 259, ../sass/qratorwp/_qratorwp.scss */
   #view_dropdown {
     margin-right: 4%;
     float: right;

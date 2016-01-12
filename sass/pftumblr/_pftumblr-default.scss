@@ -180,7 +180,6 @@ ol.notes li.more_notes_link_container{width:100%;-webkit-border-radius:2px;-moz-
     nav .pages{display:none;}
     nav{float:left;margin-top:0.625em;}
     nav .filter{margin:0;}
-    nav .filter .dropdown{width:16.25em;margin-bottom:2.5em;}
     .container,.pagination{width:16.3125em;}
     #posts{width:18.8125em;}
     #posts .post{width:16.25em;}
@@ -212,7 +211,7 @@ ol.notes li.more_notes_link_container{width:100%;-webkit-border-radius:2px;-moz-
 }
 @media screen and (min-width:27.5em){
     header .logo{width:22.5em;text-align:center;}
-    nav .filter .dropdown{width:22.5em;} .container,.pagination{width:22.5625em;}
+  .container,.pagination{width:22.5625em;}
     #posts{width:25.0625em;}
     #posts .post{width:22.5em;}
     #posts .post .lines{width:19.875em;}
@@ -235,7 +234,6 @@ ol.notes li.more_notes_link_container{width:100%;-webkit-border-radius:2px;-moz-
 }
 @media screen and (min-width:28.75em){
     header .logo{width:26.25em;text-align:center;}
-    nav .filter .dropdown{width:26.25em;}
     .container,.pagination{width:26.3125em;}
     #posts{width:28.8125em;}
     #posts .post{width:26.25em;}
@@ -258,8 +256,6 @@ ol.notes li.more_notes_link_container{width:100%;-webkit-border-radius:2px;-moz-
     header .logo span{width:auto;text-align:left;clear:none;display:inline-block;}
     nav .pages{display:inline-block;padding:0;margin-top:0.75em;list-style:none;float:left;}
     nav{float:right;margin-top:0.6875em;}
-    nav .filter{margin-left:1.875em;}
-    nav .filter .dropdown{width:14.166525em;}
     nav .filter .dropdown.open .dropdown-menu li.pages-in-nav{display:none;}
     .container,.pagination{width:47.5625em;} #posts{width:50.0625em;}
     #posts .post{width:22.5em;}#posts .post .lines{width:19.875em;}
@@ -287,7 +283,6 @@ ol.notes li.more_notes_link_container{width:100%;-webkit-border-radius:2px;-moz-
     #posts.page-permalink .post.photoset .photoset-grid li.\33.last{margin-left:-1.5%;}
 }
 @media screen and (min-width:60.0625em){
-    nav .filter .dropdown{width:17.499825em;}
     .container,.pagination{width:55.0625em;}
     #posts{width:57.5625em;}
     #posts .post{width:26.25em;}
