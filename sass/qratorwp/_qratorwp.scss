@@ -30,7 +30,6 @@ a {
 #qblog_header {
     position: fixed;
 
-
     a {
         text-decoration: none;
     }
@@ -87,9 +86,6 @@ a {
         padding: 1.20em 1.20em 0;
         a {
             text-decoration: none;
-            &:visited {
-                color: #3d393a;
-            }
         }
     }
 
@@ -216,7 +212,11 @@ nav.navigation.posts-navigation {
     box-shadow: 0 0 1px 0 #e0e0e0;
     padding: 1rem;
     background: #fff;
-    .prev, .next { font-weight: bold; font-size: 14px; text-transform: uppercase; }
+    .prev, .next { font-weight: bold; font-size: 14px; text-transform: uppercase;
+      a {
+        text-decoration: none; 
+      }
+    }
     .prev { float: left; }
     .next { float: right; }
 }

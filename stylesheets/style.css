@@ -553,7 +553,7 @@ a {
 }
 /* line 4, ../sass/navigation/_links.scss */
 a:visited {
-  color: #3d393a;
+  color: false;
 }
 /* line 7, ../sass/navigation/_links.scss */
 a:hover, a:focus, a:active {
@@ -3747,12 +3747,12 @@ a {
 #qblog_header {
   position: fixed;
 }
-/* line 34, ../sass/qratorwp/_qratorwp.scss */
+/* line 33, ../sass/qratorwp/_qratorwp.scss */
 #qblog_header a {
   text-decoration: none;
 }
 
-/* line 39, ../sass/qratorwp/_qratorwp.scss */
+/* line 38, ../sass/qratorwp/_qratorwp.scss */
 .nav-toggle {
   position: absolute;
   top: 25px;
@@ -3761,7 +3761,7 @@ a {
   cursor: pointer;
 }
 
-/* line 40, ../sass/qratorwp/_qratorwp.scss */
+/* line 39, ../sass/qratorwp/_qratorwp.scss */
 .main-nav {
   position: absolute;
   top: 25px;
@@ -3769,35 +3769,35 @@ a {
   transition: all 0.4s ease-out;
 }
 
-/* line 41, ../sass/qratorwp/_qratorwp.scss */
+/* line 40, ../sass/qratorwp/_qratorwp.scss */
 #view_dropdown {
   margin-top: 129px;
   width: 37%;
   margin-right: 6%;
 }
-/* line 44, ../sass/qratorwp/_qratorwp.scss */
+/* line 43, ../sass/qratorwp/_qratorwp.scss */
 #view_dropdown ul.filter {
   float: right;
   width: 66%;
 }
-/* line 48, ../sass/qratorwp/_qratorwp.scss */
+/* line 47, ../sass/qratorwp/_qratorwp.scss */
 #view_dropdown ul.filter .dropdown {
   width: 100%;
 }
-/* line 52, ../sass/qratorwp/_qratorwp.scss */
+/* line 51, ../sass/qratorwp/_qratorwp.scss */
 #view_dropdown li {
   margin-bottom: 4px;
 }
-/* line 56, ../sass/qratorwp/_qratorwp.scss */
+/* line 55, ../sass/qratorwp/_qratorwp.scss */
 #view_dropdown #dropdown-menu {
   margin-left: 0;
 }
-/* line 58, ../sass/qratorwp/_qratorwp.scss */
+/* line 57, ../sass/qratorwp/_qratorwp.scss */
 #view_dropdown #dropdown-menu li {
   margin-bottom: 0;
 }
 
-/* line 67, ../sass/qratorwp/_qratorwp.scss */
+/* line 66, ../sass/qratorwp/_qratorwp.scss */
 .tag-header {
   border-bottom: none;
   margin-top: 135px;
@@ -3806,7 +3806,7 @@ a {
   margin-bottom: 0;
   width: 50%;
 }
-/* line 68, ../sass/qratorwp/_qratorwp.scss */
+/* line 67, ../sass/qratorwp/_qratorwp.scss */
 .tag-header h1 {
   margin: 0;
   padding: 0;
@@ -3816,104 +3816,100 @@ a {
   font-weight: 700;
   font-family: 'proxima-nova', sans-serif;
 }
-/* line 69, ../sass/qratorwp/_qratorwp.scss */
+/* line 68, ../sass/qratorwp/_qratorwp.scss */
 .tag-header h1 i, .tag-header h1 strong {
   color: #222;
 }
 
-/* line 76, ../sass/qratorwp/_qratorwp.scss */
+/* line 75, ../sass/qratorwp/_qratorwp.scss */
 #post .post header {
   border: none;
 }
-/* line 77, ../sass/qratorwp/_qratorwp.scss */
+/* line 76, ../sass/qratorwp/_qratorwp.scss */
 #post .post header h1 {
   margin-bottom: 0px;
   font-family: 'proxima-nova', sans-serif;
   font-weight: 700;
 }
 
-/* line 83, ../sass/qratorwp/_qratorwp.scss */
+/* line 82, ../sass/qratorwp/_qratorwp.scss */
 #posts .post {
   opacity: 1;
   border: none;
   border-radius: 2px;
   padding: 1.20em 1.20em 0;
 }
-/* line 88, ../sass/qratorwp/_qratorwp.scss */
+/* line 87, ../sass/qratorwp/_qratorwp.scss */
 #posts .post a {
   text-decoration: none;
 }
-/* line 90, ../sass/qratorwp/_qratorwp.scss */
-#posts .post a:visited {
-  color: #3d393a;
-}
-/* line 98, ../sass/qratorwp/_qratorwp.scss */
+/* line 94, ../sass/qratorwp/_qratorwp.scss */
 #posts .entry-content {
   margin-top: 0;
 }
-/* line 102, ../sass/qratorwp/_qratorwp.scss */
+/* line 98, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image, #posts .post_format-post-format-gallery {
   padding: 0em;
 }
-/* line 104, ../sass/qratorwp/_qratorwp.scss */
+/* line 100, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image img, #posts .post_format-post-format-gallery img {
   width: 100%;
   height: auto;
 }
-/* line 105, ../sass/qratorwp/_qratorwp.scss */
+/* line 101, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image p, #posts .post_format-post-format-image br, #posts .post_format-post-format-image .more-link, #posts .post_format-post-format-gallery p, #posts .post_format-post-format-gallery br, #posts .post_format-post-format-gallery .more-link {
   display: none;
 }
-/* line 106, ../sass/qratorwp/_qratorwp.scss */
+/* line 102, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image .entry-footer, #posts .post_format-post-format-gallery .entry-footer {
   padding: 0 1.20em 0;
 }
-/* line 107, ../sass/qratorwp/_qratorwp.scss */
+/* line 103, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image .gallery, #posts .post_format-post-format-gallery .gallery {
   margin-bottom: 0px;
 }
-/* line 111, ../sass/qratorwp/_qratorwp.scss */
+/* line 107, ../sass/qratorwp/_qratorwp.scss */
 #posts header {
   border-bottom: none;
 }
-/* line 113, ../sass/qratorwp/_qratorwp.scss */
+/* line 109, ../sass/qratorwp/_qratorwp.scss */
 #posts header h1 {
   line-height: 1.63636em;
   font-weight: bold;
   font-family: "proxima-nova-1","proxima-nova-2",sans-serif;
 }
-/* line 120, ../sass/qratorwp/_qratorwp.scss */
+/* line 116, ../sass/qratorwp/_qratorwp.scss */
 #posts footer {
   border-top: none;
 }
-/* line 124, ../sass/qratorwp/_qratorwp.scss */
+/* line 120, ../sass/qratorwp/_qratorwp.scss */
 #posts .gallery-columns-3 .gallery-item {
   max-width: 100% !important;
 }
-/* line 129, ../sass/qratorwp/_qratorwp.scss */
+/* line 125, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image header, #posts .post_format-post-format-gallery header {
   display: none;
 }
-/* line 132, ../sass/qratorwp/_qratorwp.scss */
+/* line 128, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image .entry-content, #posts .post_format-post-format-gallery .entry-content {
   margin-top: 0;
 }
-/* line 134, ../sass/qratorwp/_qratorwp.scss */
+/* line 130, ../sass/qratorwp/_qratorwp.scss */
 #posts .post_format-post-format-image .entry-content p, #posts .post_format-post-format-image .entry-content br, #posts .post_format-post-format-gallery .entry-content p, #posts .post_format-post-format-gallery .entry-content br {
   display: none;
 }
 
-/* line 142, ../sass/qratorwp/_qratorwp.scss */
+/* line 138, ../sass/qratorwp/_qratorwp.scss */
 .nav-links {
   display: none;
 }
 
-/* line 144, ../sass/qratorwp/_qratorwp.scss */
+/* line 140, ../sass/qratorwp/_qratorwp.scss */
 nav.navigation.posts-navigation {
   float: none;
 }
 
-/* line 148, ../sass/qratorwp/_qratorwp.scss */
+/* line 144, ../sass/qratorwp/_qratorwp.scss */
 .tags-links {
   font-size: 0.6rem;
   float: right;
@@ -3922,16 +3918,16 @@ nav.navigation.posts-navigation {
   max-width: 62%;
   margin-bottom: 5px;
 }
-/* line 155, ../sass/qratorwp/_qratorwp.scss */
+/* line 151, ../sass/qratorwp/_qratorwp.scss */
 .tags-links a {
   text-decoration: none;
 }
-/* line 157, ../sass/qratorwp/_qratorwp.scss */
+/* line 153, ../sass/qratorwp/_qratorwp.scss */
 .tags-links a:before {
   content: '#';
 }
 
-/* line 164, ../sass/qratorwp/_qratorwp.scss */
+/* line 160, ../sass/qratorwp/_qratorwp.scss */
 .date, .edit-link {
   font-size: 0.6rem;
   float: left;
@@ -3940,30 +3936,30 @@ nav.navigation.posts-navigation {
   padding-bottom: .5em;
 }
 
-/* line 173, ../sass/qratorwp/_qratorwp.scss */
+/* line 169, ../sass/qratorwp/_qratorwp.scss */
 .more-link {
   font-size: 0.8rem;
   padding: 0;
   margin: 0;
   font-style: italic;
 }
-/* line 178, ../sass/qratorwp/_qratorwp.scss */
+/* line 174, ../sass/qratorwp/_qratorwp.scss */
 .more-link:after {
   content: "...";
 }
 
-/* line 183, ../sass/qratorwp/_qratorwp.scss */
+/* line 179, ../sass/qratorwp/_qratorwp.scss */
 .social-sharing {
   width: 100%;
   float: left;
   margin-top: 20px;
 }
 
-/* line 185, ../sass/qratorwp/_qratorwp.scss */
+/* line 181, ../sass/qratorwp/_qratorwp.scss */
 #post {
   margin: 0 auto;
 }
-/* line 188, ../sass/qratorwp/_qratorwp.scss */
+/* line 184, ../sass/qratorwp/_qratorwp.scss */
 #post #post_content {
   float: left;
   width: 60%;
@@ -3973,39 +3969,39 @@ nav.navigation.posts-navigation {
   margin: 2.5em 3% 0 0;
   padding: 2rem;
 }
-/* line 198, ../sass/qratorwp/_qratorwp.scss */
+/* line 194, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details {
   float: right;
   border: none;
   width: 37%;
   margin: 2.5em 0 0;
 }
-/* line 203, ../sass/qratorwp/_qratorwp.scss */
+/* line 199, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details .date, #post #post-details .edit-link, #post #post-details .tags-links {
   font-size: 1em;
   float: none;
 }
-/* line 204, ../sass/qratorwp/_qratorwp.scss */
+/* line 200, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details .tags-links {
   width: 100%;
   min-width: 200px;
   float: left;
   margin: 10px 0;
 }
-/* line 205, ../sass/qratorwp/_qratorwp.scss */
+/* line 201, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details .date:before {
   font-family: fontawesome;
   content: "\f017";
   margin-right: 5px;
 }
-/* line 206, ../sass/qratorwp/_qratorwp.scss */
+/* line 202, ../sass/qratorwp/_qratorwp.scss */
 #post #post-details .tags-links:before {
   font-family: fontawesome;
   content: "\f02c";
   margin-right: 5px;
 }
 
-/* line 211, ../sass/qratorwp/_qratorwp.scss */
+/* line 207, ../sass/qratorwp/_qratorwp.scss */
 .post-navigation {
   width: 60%;
   float: left;
@@ -4015,11 +4011,15 @@ nav.navigation.posts-navigation {
   padding: 1rem;
   background: #fff;
 }
-/* line 219, ../sass/qratorwp/_qratorwp.scss */
+/* line 215, ../sass/qratorwp/_qratorwp.scss */
 .post-navigation .prev, .post-navigation .next {
   font-weight: bold;
   font-size: 14px;
   text-transform: uppercase;
+}
+/* line 216, ../sass/qratorwp/_qratorwp.scss */
+.post-navigation .prev a, .post-navigation .next a {
+  text-decoration: none;
 }
 /* line 220, ../sass/qratorwp/_qratorwp.scss */
 .post-navigation .prev {
