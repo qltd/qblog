@@ -1,30 +1,30 @@
 <?php
 /**
- * @package qblog
  */
 ?>
 
+
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+		<?php the_title(sprintf('<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h1>'); ?>
 			</header><!-- .entry-header -->
 
 	<div class="entry-content">
                 <a href="<?php the_permalink(); ?>">
 		<?php
-			/* translators: %s: Name of current post */
-			the_content( sprintf(
-				__( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'qblog' ),
-				the_title( '<span class="screen-reader-text">"', '"</span>', false )
-			) );
-		?>
+            /* translators: %s: Name of current post */
+            the_content(sprintf(
+                __('Continue reading %s <span class="meta-nav">&rarr;</span>', 'qblog'),
+                the_title('<span class="screen-reader-text">"', '"</span>', false)
+            ));
+        ?>
 
 		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'qblog' ),
-				'after'  => '</div>',
-			) );
-		?>
+            wp_link_pages(array(
+                'before' => '<div class="page-links">'.__('Pages:', 'qblog'),
+                'after' => '</div>',
+            ));
+        ?>
                 </a>
 	</div><!-- .entry-content -->
 
