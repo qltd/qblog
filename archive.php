@@ -34,15 +34,16 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php the_posts_navigation(); ?>
-
 		<?php else : ?>
 
 			<?php get_template_part( 'content', 'none' ); ?>
 
 		<?php endif; ?>
 
+
+
         </section>
+         <?php the_posts_navigation(); ?>
     </div><!-- .post-wrapper-->
 
 <?php get_footer(); ?>
