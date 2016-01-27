@@ -28,7 +28,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php _e('Skip to content', 'qblog'); ?></a>
 
 	<header id="qblog_header" class="header clearfix" role="banner">
-        <h1 class="logo"><a href="/" rel="home">Q Design & Communication Since 1981</a></h1>
+        <h1 class="logo"><a href="http://qltd.com" rel="home">Q Design & Communication Since 1981</a></h1>
         <div class="nav-toggle"><i class="fa fa-bars"></i></div>
 		<nav id="" class="main-nav" role="navigation">
             <?php wp_nav_menu(array('theme_location' => 'primary', 'menu_id' => 'primary-menu')); ?>
