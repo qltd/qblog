@@ -28,6 +28,8 @@ a {
 
 #qblog_header {
     position: fixed;
+    display: block;
+    z-index: 1000000;
 
     a {
         text-decoration: none;
