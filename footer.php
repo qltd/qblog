@@ -15,6 +15,12 @@
 <?php wp_footer(); ?>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.min.js"></script>
 <script>
+
+var _gaq=[['_setAccount','UA-1915631-1'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
+
 ( function( $ ) {
 
     var $container = $('#posts');
