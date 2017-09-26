@@ -10,7 +10,6 @@
 			</header><!-- .entry-header -->
 
 	<div class="entry-content">
-                <a href="<?php the_permalink(); ?>">
 		<?php
             /* translators: %s: Name of current post */
             the_content(sprintf(
@@ -25,7 +24,6 @@
                 'after' => '</div>',
             ));
         ?>
-                </a>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
